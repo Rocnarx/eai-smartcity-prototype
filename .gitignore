@@ -1,0 +1,42 @@
+# --- Virtual environments ---
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and local data ---
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# --- IDE / Editor config ---
+.vscode/
+.idea/
+*.swp
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Railway / Deployment temp files ---
+.railway/
+.cache/
+node_modules/
+
+# --- Testing ---
+.coverage
+pytest_cache/
+htmlcov/

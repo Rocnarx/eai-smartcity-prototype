@@ -73,17 +73,23 @@ Response:
    cd eai-smartcity-prototype
    ```
 
-2. Install dependencies:
+2. Create a virtual enviroment:
+   ```bash
+   venv\Scripts\activate
+   ```
+   
+
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run locally:
+4. Run locally:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
-4. Open your browser:
+5. Open your browser:
    ```
    http://localhost:8000/docs
    ```
